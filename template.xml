@@ -18,7 +18,9 @@ function compose() {
 }
 </script> 
 <center>
-<button onclick="compose()">Compose Event</button> 
+<button
+style="background-color:Crimson;width:300;height:100;font-size:20px;color:white"
+onclick="compose()">Create a Stuzo Meeting</button> 
 </center> 
 </body> 
 </html>

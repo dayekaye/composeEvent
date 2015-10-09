@@ -1,0 +1,27 @@
+<!--Comment to let you know-->
+<?xml version="1.0" encoding="UTF-8" ?> 
+<Module>
+  <ModulePrefs title="Event Template" author="David Kassie">
+<Require feature="google.calendar-0.5"/>
+</ModulePrefs>
+  <Content type="html" view="home">
+     <![CDATA[ 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> 
+<html> 
+<body> 
+<script>
+function compose() { 
+	var eventData = { title: 'ENTER YOUR TITLE', 
+							details: 'Objective:\n\nAgenda:\n\nPre-meeting Homework:\n'
+						 };
+	google.calendar.composeEvent(eventData);
+}
+</script> 
+<center>
+<button onclick="compose()">Compose Event</button> 
+</center> 
+</body> 
+</html>
+     ]]>
+  </Content> 
+</Module>

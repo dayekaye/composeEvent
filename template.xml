@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?> 
 <Module>
   <ModulePrefs title="Event Template" author="David Kassie">
-<Require feature="google.calendar-0.5"/>
+<Require feature="google.calendar-0.5" "dynamic-height"/>
 </ModulePrefs>
   <Content type="html" view="home">
      <![CDATA[ 

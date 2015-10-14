@@ -14,7 +14,7 @@ function compose() {
 	var eventData = { title: 'ENTER YOUR TITLE', 
 							details: 'Objective:\n\nAgenda:\n\nPre-meeting
 Homework:\n',
-						attendees:	[{name: Stuzo Conference Room}]
+						attendees:	[{name: 'Stuzo Conference Room'}]
 						 };
 	google.calendar.composeEvent(eventData);
 }

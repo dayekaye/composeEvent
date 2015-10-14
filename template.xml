@@ -21,10 +21,23 @@ function compose() {
 <center>
 <button
 style="background-color:Crimson;width:300;height:100;font-size:20px;color:white"
-onclick="compose()" autofocus>Create a Stuzo Meeting</button> 
+onclick="compose()">Create a Stuzo Meeting</button> 
 </center> 
 <center>
-<input id="textBox1" type="text" placeholder="Enter a mm/dd" size=300 maxlength=5 align=middle />
+<select id="Months" size=100 autofocus>
+<option value="January">January</option>
+<option value="February">February</option> 
+<option value="March">March</option> 
+<option value="April">April</option> 
+<option value="May">May</option> 
+<option value="June">June</option> 
+<option value="July">July</option> 
+<option value="August">August</option> 
+<option value="September">September</option> 
+<option value="October">October</option> 
+<option value="November">November</option> 
+<option value="December">December</option>  
+</select>
 </center>
 </body> 
 </html>

@@ -23,6 +23,7 @@ function compose() {
 style="background-color:Crimson;width:300;height:100;font-size:20px;color:white"
 onclick="compose()" autofocus>Create a Stuzo Meeting</button> 
 </center> 
+<input id="textBox1" type="text" value="Enter a mm/dd" />
 </body> 
 </html>
      ]]>

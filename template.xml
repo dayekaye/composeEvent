@@ -53,7 +53,7 @@ endColorstr=#9f0202);
 </style></head>
 <body>
 
-<a class="button_example" href="#" onClick=compose()>CREATE A STUZO MEETING</a>
+<a class="button_example" href="#" onClick=compose();>CREATE A STUZO MEETING</a>
 </center> 
 </body> 
 </html>
